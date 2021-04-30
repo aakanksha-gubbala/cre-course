@@ -1,0 +1,152 @@
+html {
+    background: #ffffff;
+    font-family: "Helvetica Neue", sans-serif, monospace;
+}
+
+h1 {
+    color: #267CB9;
+    text-align: left;
+}
+
+.navbar {
+    width: 100%;
+    margin-left: 21px;
+    margin-right: 21px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.navbar a {
+    text-decoration: none;
+    background-color: transparent;
+    height: 2.5rem;
+}
+
+ion-icon {
+    color: black;
+}
+
+.navbar-icon:hover {
+    background-color: #d5e8f6;
+}
+
+.navbar-icon {
+    padding: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.icon {
+    width: 3rem;
+    height: 3rem;   
+}
+
+.links a {
+    color: #267CB9;
+    text-decoration: none;
+    line-height: 25px;
+}
+
+.links li {
+    line-height: 1.5em;
+}
+
+.about {
+    margin-left: 6%;
+    margin-right: 6%;
+    
+}
+
+.contents {
+    margin-right: 1px;
+    margin-right: 1px;
+}
+
+.bottom {
+    line-height: 1.5em;
+    margin-left: 10%;
+}
+
+.bottom a {
+    color: #267CB9; 
+    text-decoration: none;
+}
+
+.bottom span {
+    float:right;
+    margin-right: 10%;
+}
+
+
+.collapse-content li {
+    list-style-type: decimal;
+    list-style-position: inside;
+    width: 80%;
+    height: 100%;
+    margin-left: 6%;
+    margin-right: 6%;
+    color: black;
+    line-height: 1.44rem;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+
+.collapse {
+    background-color: transparent;
+    color: #000000;
+    cursor: pointer;
+    padding: 10px;
+    width: 90%;
+    height: 100%;
+    margin-left: 6%;
+    margin-right: 6%;
+    border: none;
+    font-size: 14px;
+    text-align: left;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.arrow {
+    padding-right: -1rem;
+    resize: both;
+}
+
+.collapse:hover {
+    background-color: #d5e8f6;
+
+}
+
+.collapse:active {
+    background-color: transparent;
+}
+
+.collapse::after {
+    content: "";
+    float: left;
+    padding-top: 11px;
+    transform: scale(1);   
+}
+   
+.collapse b {
+    padding-left: 1.5rem;
+}
+
+.collapse-content {
+    height: 100%;
+    overflow-x: scroll;
+    color: black;
+    font-size: 0.9rem;
+    overflow: hidden;
+    display: none;
+    transition: max-height 0.3s;
+    position: relative;
+    padding: 1rem;
+}
+
+.equation {
+    height: 100%;
+    overflow-x: scroll;
+}
+
